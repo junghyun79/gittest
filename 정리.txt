@@ -1,0 +1,42 @@
+<Git>
+
+cf) GitHub: 클라우드 저장공간
+    Git : 형상관리 툴
+
+편집툴 : Visual Studio Code
+          -> 터미널 기본 shell을 bash로 변경
+
+git : git bash download -> 우클릭시 bash로 작업 가능
+
+
+<command>
+git init : git 프로젝트로 초기화함.
+          -> .git 폴더 생성(소스 버전관리)
+
+git status : 
+git add index.html  : 수정한 이력은 모두 add 해야함.
+  -- git add . (모두 추가)
+
+
+
+git commit -m "프로젝트 초기화" : save point 지정
+   -> commit한 사람 정보를 알려줘야 함.
+     -> git config --global user.email "cjh7929@naver.com"
+     -> git config --global user.name "junghyun79"
+
+git remote :  commit된 정보를 github 원격지에 보내줘야 함.
+   -> git remote add origin https://github.com/junghyun79/gittest.git
+   -> git remote
+   -> git remote -v
+
+git push origin master : origin을 master 브랜치로 올림.
+
+
+
+
+-----------------------------------------------------------
+윈도우10 : 자격 증명 관리에 등록됨.
+
+ - repository를 변경할 때는 "제어판>자격 증명 관리" 들어가서 삭제하고 다시 인증받도록 해야 함.
+   (하지 않으면 permission denied 메시지 뜸)
+
