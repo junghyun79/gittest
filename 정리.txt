@@ -8,9 +8,9 @@ cf) GitHub: 클라우드 저장공간
 
 git : git bash download -> 우클릭시 bash로 작업 가능
 
+readme.md : 설명문
 
-readme.md : 
-
+---------------------------------------------------------
 <command>
 git init : git 프로젝트로 초기화함.
           -> .git 폴더 생성(소스 버전관리)
@@ -18,6 +18,7 @@ git init : git 프로젝트로 초기화함.
 git status : 
 
  ** git add -> commit -> push
+   (귀찮으면 source control에서 "메시지입력"+ ctrl+Enter -> 옵션메뉴 push)
 
 git add index.html  : 수정한 이력은 모두 add 해야함.
   -- git add . (모두 추가)
@@ -44,4 +45,9 @@ git push origin master : origin을 master 브랜치로 올림.
 
  - repository를 변경할 때는 "제어판>자격 증명 관리" 들어가서 삭제하고 다시 인증받도록 해야 함.
    (하지 않으면 permission denied 메시지 뜸)
+
+
+git 복사 : 새폴더 생성 -> bash로 열기 
+-   git clone https://github.com/junghyun79/gittest.git .
+
 
