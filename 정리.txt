@@ -9,11 +9,16 @@ cf) GitHub: 클라우드 저장공간
 git : git bash download -> 우클릭시 bash로 작업 가능
 
 
+readme.md : 
+
 <command>
 git init : git 프로젝트로 초기화함.
           -> .git 폴더 생성(소스 버전관리)
 
 git status : 
+
+ ** git add -> commit -> push
+
 git add index.html  : 수정한 이력은 모두 add 해야함.
   -- git add . (모두 추가)
 
