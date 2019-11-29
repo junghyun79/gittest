@@ -37,7 +37,7 @@ git remote :  commit된 정보를 github 원격지에 보내줘야 함.
 
 git push origin master : origin을 master 브랜치로 올림.
 
-
+git pull origin master : fetch 해오는 것
 
 
 -----------------------------------------------------------
